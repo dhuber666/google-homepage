@@ -8,7 +8,7 @@
 .navbar {
 
 	margin-top: 13px;
-	border: 2px dashed green;
+	
 	
 	float: right;
 	/*width: 300px;*/
@@ -60,7 +60,7 @@
 
 	/*clear: both;*/
 	
-	border: 2px dashed yellow;
+	
 	top: 180px;
 	position: relative;
 	clear: both;
@@ -94,12 +94,15 @@
 
 	display: block;
 	width: 580px;
-	height: 35px;
+	height: 41px;
 	margin: 0 auto;
 	margin-top: 20px;
 	
 	padding: 0;
-	
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition-property: box-shadow;
+	border: none;
 }
 
 
@@ -125,20 +128,81 @@ input[type=submit] {
 
 .buttons {
 
-	margin: 0 auto;
+	margin: 15px auto;
 }
 
 
-.searchcontainer {
-
-	border: 2px dashed red;
-}
 
 .buttoncontainer {
 	
 	width: 500px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.disclaimer {
+
+	width: 500px;
+
+	margin-top: 195px;
+	margin-left: auto;
+	margin-right: auto;
+	border 2px solid red;
+	clear: both;
+	text-align: center;
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+.footer {
+
+	background: #f2f2f2;
+	
+	height: 25px;
+	position: bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 10px;
+
+
+}
+
+.footer-l li {
+
+	display: inline-block;
+	font-color: #666;
+	padding-left: 27px;
+	margin: 0;
+	
+}
+
+.footer-r li {
+
+	display: inline-block;
+	font-color: #666;
+	padding-left: 27px;
+	margin: 0;
+}
+
+.footer-l {
+
+	width: 450px;
+	float: left;
+	
+	height: 35px;
+	display: inline;
+
+}
+
+.footer-r {
+	width: 450px;
+	float: right;
+	
+	height: 35px;
+	
+
 }
 
 /* Todo: Google logo zentrieren; Dann Search Box erstellen*/
