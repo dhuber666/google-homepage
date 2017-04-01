@@ -1,0 +1,147 @@
+* {
+
+	margin: 0;
+
+}
+
+
+.navbar {
+
+	margin-top: 13px;
+	border: 2px dashed green;
+	
+	float: right;
+	/*width: 300px;*/
+	position: relative;
+}
+
+.navbar p, .navbar img {
+
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline;
+	line-height: 24px;
+	outline: none;
+	opacity: .75;
+	padding-right: 15px;
+
+}
+
+.navbar p {
+
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.navbar img {
+
+	height: 30px;
+	width: 30px;
+
+}
+
+
+
+#picture {
+
+	height: 30px;
+	width: 30px;
+	padding: 0;
+	
+	
+	border-radius: 50%;
+}
+
+/* this is the google logo */
+
+.main {
+
+	/*clear: both;*/
+	
+	border: 2px dashed yellow;
+	top: 180px;
+	position: relative;
+	clear: both;
+
+	
+	
+
+	
+	
+	
+}
+
+/* this is the img within the main class (the google logo) */
+
+.main img {
+
+	height: 180px;
+	width: 380px;
+	
+	
+	display: block;
+	margin: 0 auto;
+
+
+
+}
+
+
+
+.searchbar {
+
+	display: block;
+	width: 580px;
+	height: 35px;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+	padding: 0;
+	
+}
+
+
+
+input[type=submit] {
+
+	
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+
+.buttons {
+
+	margin: 0 auto;
+}
+
+
+.searchcontainer {
+
+	border: 2px dashed red;
+}
+
+.buttoncontainer {
+	
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Todo: Google logo zentrieren; Dann Search Box erstellen*/
+
+
+
